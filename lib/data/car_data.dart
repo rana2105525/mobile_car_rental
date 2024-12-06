@@ -22,11 +22,4 @@ final List<Car> featuredCars = [
     image: 'assets/images/mercedes_aMG_GT.png',
     rating: 4.9,
   ),
-    Car(
-    name: "Audi RS 6",
-    brand: "Audi",
-    price: 250,
-    image: 'assets/images/audi_RS_6.png',
-    rating: 4.9,
-  ),
 ];

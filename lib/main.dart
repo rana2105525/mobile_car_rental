@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:mobile_car_rental/screens/car_detail_screen.dart';
+import 'package:mobile_car_rental/screens/home_screen.dart';
 import 'package:mobile_car_rental/screens/onboarding_screen.dart';
+import 'package:mobile_car_rental/tabs/notification_tab.dart';
 
 void main() {
   runApp(const MyApp());
