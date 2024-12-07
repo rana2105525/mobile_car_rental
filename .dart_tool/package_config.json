@@ -44,10 +44,22 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "flip_card",
+      "rootUri": "file:///C:/Users/Laptop/AppData/Local/Pub/Cache/hosted/pub.dev/flip_card-0.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter",
       "rootUri": "file:///C:/src/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.3"
+    },
+    {
+      "name": "flutter_credit_card",
+      "rootUri": "file:///C:/Users/Laptop/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_credit_card-4.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
     },
     {
       "name": "flutter_lints",
@@ -60,6 +72,12 @@
       "rootUri": "file:///C:/src/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "3.3"
+    },
+    {
+      "name": "flutter_web_plugins",
+      "rootUri": "file:///C:/src/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
     },
     {
       "name": "font_awesome_flutter",
@@ -140,6 +158,18 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "patterns_canvas",
+      "rootUri": "file:///C:/Users/Laptop/AppData/Local/Pub/Cache/hosted/pub.dev/patterns_canvas-0.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "plugin_platform_interface",
+      "rootUri": "file:///C:/Users/Laptop/AppData/Local/Pub/Cache/hosted/pub.dev/plugin_platform_interface-2.1.8",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///C:/src/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -212,7 +242,7 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2024-12-06T16:43:50.518317Z",
+  "generated": "2024-12-07T19:44:29.113247Z",
   "generator": "pub",
   "generatorVersion": "3.5.3",
   "flutterRoot": "file:///C:/src/flutter",

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mobile_car_rental/screens/car_detail_screen.dart';
+import 'package:mobile_car_rental/screens/credit_card_screen.dart';
 import 'package:mobile_car_rental/screens/home_screen.dart';
 import 'package:mobile_car_rental/screens/onboarding_screen.dart';
 import 'package:mobile_car_rental/tabs/notification_tab.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false, // Removes the debug banner
-      home: const Onboarding(),
+      home:  const Onboarding(),
     );
   }
 }

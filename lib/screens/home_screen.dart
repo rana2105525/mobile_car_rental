@@ -423,7 +423,7 @@ Widget _buildCarCard(Car car) {
         borderRadius: BorderRadius.circular(50),
       ),
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+        padding: const EdgeInsets.symmetric(horizontal: 10.0, vertical: 10),
         child: GNav(
           backgroundColor: Colors.black,
           color: Colors.white,

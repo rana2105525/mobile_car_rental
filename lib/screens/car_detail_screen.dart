@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:mobile_car_rental/models/car_model.dart';
+import 'package:mobile_car_rental/screens/credit_card_screen.dart';
 import 'package:mobile_car_rental/screens/home_screen.dart';
 import 'package:mobile_car_rental/screens/profile_screen.dart';
 import 'package:mobile_car_rental/screens/settings_screen.dart';
@@ -242,8 +243,11 @@ class _CarDetailScreenState extends State<CarDetailScreen> {
         shape:
             RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
       ),
-      onPressed: () {
-        // booking logic here
+      onPressed: () => {
+       Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => CreditCardScreen()),
+       )
       },
       child: Padding(
         padding: const EdgeInsets.all(12), 
@@ -263,7 +267,7 @@ class _CarDetailScreenState extends State<CarDetailScreen> {
         borderRadius: BorderRadius.circular(50), // Apply border radius here
       ),
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 20),
+        padding: const EdgeInsets.symmetric(horizontal: 10.0, vertical: 10),
         child: GNav(
           backgroundColor: Colors.black,
           color: Colors.white,
